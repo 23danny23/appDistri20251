@@ -1,6 +1,6 @@
 import pika
 
-# Configuración de conexión a RabbitMQ
+# Configuración de conexión a RabbitMQ  uvicorn app.main:app --reload
 RABBITMQ_CONFIG = {
     "username": "admin",
     "password": "admin",

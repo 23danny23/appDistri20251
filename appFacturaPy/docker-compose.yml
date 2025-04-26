@@ -1,0 +1,14 @@
+
+services:
+  factura-api:
+    build: .
+    container_name: factura-api
+    ports:
+      - "8082:82"  # puerto externo 8082 -> interno 82
+    networks:
+      - net-app-distri
+
+networks:
+  net-app-distri:
+    name: netappdistri
+    external: true

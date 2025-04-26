@@ -27,6 +27,43 @@ myenv/
 
 **/myenv/
 
+# Archivos de configuración de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editor
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.bak
+*.swp
+.dockerignore
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# SQLite u otras bases locales (si aplica)
+*.sqlite3
+
+# Archivos de configuración sensibles
+.env.local
+.env.*
+
+# Carpetas específicas para pruebas o ejecución local
+*.db
 
 # Node
 /node_modules
